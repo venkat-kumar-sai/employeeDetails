@@ -3,4 +3,4 @@ applications:
 - name: employeeDetails
   random-route: false
   memory: 128M
-  path: index.js
+
