@@ -1,0 +1,5 @@
+---
+applications:
+- name: employee-database
+  random-route: false
+  memory: 128M
