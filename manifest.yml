@@ -1,6 +1,8 @@
 ---
 applications:
 - name: employeeDetails
+  buildpacks:
+  - nodejs_buildpack
   random-route: false
   memory: 128M
   command: node index.js
