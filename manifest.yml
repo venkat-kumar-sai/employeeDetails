@@ -5,5 +5,4 @@ applications:
   - nodejs_buildpack
   random-route: false
   memory: 128M
-  command: node index.js
 
