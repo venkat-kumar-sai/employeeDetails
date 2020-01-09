@@ -5,10 +5,10 @@ var app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
-app.get('/error',function(req,res){
+app.get('/',function(req,res){
     res.status(500).send(err)
 })
-app.get('/',function(req,res){
+app.get('/hai',function(req,res){
     res.send("hai")
 })
 // var mysqlConnection = mysql.createConnection({
