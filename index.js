@@ -6,7 +6,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
 app.get('/error',function(req,res){
-    res.status(500).send("error")
+    res.status(500).send(err)
 })
 app.get('/',function(req,res){
     res.send("hai")
