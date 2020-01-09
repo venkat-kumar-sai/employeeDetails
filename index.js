@@ -85,5 +85,5 @@ app.get('/',function(req,res){
 //          console.log('updated');
 //          res.send("1 record updated sucessfully")
 //          })
-var port = process.env.PORT || 4000;
-app.listen(port,(req,res)=>{console.log("port 4000")});
+//var port = process.env.PORT || 4000;
+app.listen(4000,(req,res)=>{console.log("port 4000")});
